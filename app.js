@@ -2,13 +2,13 @@ const warriorsGames = [{
     awayTeam: {
       team: 'Golden State',
       points: 119,
-      isWinner: true
+     isWinner: true
     },
 
 
 
     homeTeam: {
-      team: 'Houston',
+      team: 'Albania',
       points: 106,
       isWinner: false
     }
@@ -118,3 +118,5 @@ const chart2 =  makeChart(warriorsGames, 'Houston')
 
 gs.appendChild(chart1)
 hs.append(chart2)
+
+
